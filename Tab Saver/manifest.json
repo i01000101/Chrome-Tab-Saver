@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Saver",
+  "version": "1.0.0",
+  "description": "Save your tabs to use them later",
+  "action":{
+    "default_icon": "icons/boxIcon.png",
+    "default_popup": "popup.html",
+    "default_title": "Tab Saver"
+  },
+
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage",
+    "unlimitedStorage"
+  ],
+
+  "icons":{
+    "512":"icons/boxIcon.png"
+  }
+}

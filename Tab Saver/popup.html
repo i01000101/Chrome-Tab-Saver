@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tab Saver</title>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <div style="text-align: center; padding: 10px;">
+                <img src="icons/boxIcon.png" style="width:100px; height:100px"/>
+            </div>
+            <div id="userPanel">
+                <div id="top">
+                    <button id="showTabsTab" class="tabButton active">TABS</button>
+                    <button id="openSavesTab" class="tabButton">OPEN</button>
+                </div>
+                <div id="view">
+                    <div id="saved" class="notificationView">SAVED</div>
+                    <div id="deleted" class="notificationView">DELETED</div>
+                    <div id="tabsView" style="height:100%">
+                        <div id="selectAllBar">
+                            <input type="checkbox" id="selectAll"/>
+                            <div style="margin-left: 10px;">Select All</div>
+                        </div>
+                        <div id="tabList">
+                            <!-- JS will add elements here -->
+                        </div>
+                        <div class="viewBottom">
+                            <input id="saveName" placeholder="Tabs 1"/>
+                            <button id="saveButton" title="Save"><img src="icons/saveIcon.png"/></button>
+                        </div>
+                    </div>
+                    <div id="savesView" style="display: none;" id="open">
+                        <div id="saveList" style="height: 85%;">
+                            <!-- JS will add elements here -->
+                        </div>
+                        <div class="viewBottom">
+                            <div style="flex:1">
+                                <button id="deleteButton" title="Delete"><img src="icons/delete.png"/></button>
+                            </div>
+                            <div style="flex:1">
+                                <button id="openButton" title="Open"><img src="icons/open.png"/></button>
+                            </div>
+                            <div style="flex:1">
+                                <button id="deleteAllButton" title="Delete All"><img src="icons/deleteAll.png"/></button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
