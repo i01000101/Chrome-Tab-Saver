@@ -1,5 +1,5 @@
 
-// To get and show all open tabs when the pop-up is opens
+// To get and show all open tabs when the pop-up opens
 var openTabs
 
 chrome.tabs.query({}, tabs => {
@@ -45,7 +45,7 @@ chrome.tabs.query({}, tabs => {
     })
 })
 
-// To get and show all saves when the pop-up is opens
+// To get and show all saves when the pop-up opens
 var saveNumber
 
 getSaves = () => {
