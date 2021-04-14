@@ -10,3 +10,5 @@ You can save your tabs if you want to take a break from a subject when you are u
 You can use it with a basic popup.
 Your data is not stored at anywhere but your computer.
 It's pure, secure and useful.
+
+You can setup and use via the link.
